@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+body{
+        font-family: Arial, sans-serif;
+        background-color: rgb(226, 225, 225);
+}
+section{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#main-login{
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#herosection{
+    padding: 170px 150px;
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+    align-items: center;
+    text-align: center;
+}
+#herosection-text{
+    font-size: 40px;
+}
+#formsection{
+    border-radius: 0px 10px 10px 0px;
+    padding: 72px 140px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#formid{
+    justify-content: space-evenly;
+}
+#form-button{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px 14px;
+    background-color: rgb(247, 248, 248); border-width: 1px; 
+}
+#form-button:hover{
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: grey;
+}
+label {
+    display: block; /* Labels are block elements */
+    margin-bottom: 5px; 
+    font-weight: bold; /* Bold text */
+    color: #555; /* Medium dark color */
+}
+input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding for comfortable clicking */
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+a {
+    text-align: end;
+    display: block; /* Makes the link take its own line */
+    margin-bottom: 20px; /* Space below the link */
+    color: #007BFF; /* Blue color for link */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
