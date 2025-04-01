@@ -70,7 +70,6 @@ button, a {
 .nav-link:not(.active):hover {
   color: var(--buttons-color-primary);
 }
-{
 @media screen and (max-width: 1020px) {
   .app-main-left .card-wrapper {
     width: 50%;
@@ -94,8 +93,6 @@ button, a {
     margin: 0 8px;
   }
 
-
-}
 @media screen and (max-width: 660px) {
   .navigation-links {
     display: none;
