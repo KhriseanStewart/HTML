@@ -200,16 +200,15 @@ button, a {
     margin-top: 20px;
 }
 footer{
-    padding: 20px 0px;
-    text-align: center;
-    background-color: rgb(97, 69, 55);
-    color: white;
+  padding: 24px 40px;
+  text-align: center;
+  color: var(--main-font-color);
 }
 .footer{
-    color: white;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
+  color: var(--main-font-color);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
 }
