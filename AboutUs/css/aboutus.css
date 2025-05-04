@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap");
+
+:root {
+  font-family: "Quicksand", sans-serif;
+  --modal-before: rgba(215,215,215,.5);
+  --main-font-color: #000;
+  --light-font-color: #becaca;
+  --main-border-color: #f3f3f3;
+  --secondary-border-color: #faeceb;
+}
+
+.nav-right-side {
+  display: flex;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.hero-section{
+  background-image: url(../assets/DSC_0052-scaled.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 90vh;
+  background-color: rgb(97, 69, 55);
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.hero-text{
+  font-size: 58px;
+  color: white;
+}
+.aboutus-content{
+  background-color: beige;
+  border-radius: 5px;
+  width: 50%;
+  padding: 50px;
+  box-shadow: 10px 10px 15px rgba(0.1, 0.1, 0.1, 0.3);
+}
+.aboutus-text{
+  font-size: 28px;
+  color: black;
+  text-align: center;
+}
+.aboutus-para{
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.aboutus-section{
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+.aboutus-image{
+  width: 40%;
+  height: 70vh;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.aboutus-image img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 100%;
+}
+.banner-section{
+  background-color: beige;
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+}
+.banner-text{
+  font-size: 38px;
+  color: black;
+}
+.banner-para{
+  font-size: 18px;
+  color: black;
+}
+.banner-btn{
+  background-color: rgb(97, 69, 55);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+.banner-btns{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1240px) {
+  .aboutus-content {
+    width: 90%;
+  }
+  .aboutus-image {
+    width: 100%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .aboutus-image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .hero-text{
+    color: #232323;
+  }
+  
+}
+
+@media screen and (max-width: 520px) {
+  .hero-text{
+    color: #000;
+  }
+  .aboutus-para {
+    font-size: 15px;
+  }
+  .app-container {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap");
+
+:root {
+  font-family: "Quicksand", sans-serif;
+  --app-bg: #fff; /* Background color */
+  --modal-before: rgba(215,215,215,.5);
+  --main-font-color: #000; /* Main text color */
+  --light-font-color: #becaca; /* Light text color */
+  --main-border-color: #f3f3f3; /* Main border color */
+  --secondary-border-color: #faeceb; /* Secondary border color */
+  --button-bg-light: #f3f3f3; /* Button background light */
+  --cards-area-bg: #f4f4f6; /* Cards area background */
+  --cards-bg: #fff; /* Cards background */
+  --buttons-color-primary: #d84851; /* Primary button color */
+  --buttons-color-secondary: #f8e4e5; /* Secondary button color */
+  --filter-bg: #fff; /* Filter background */
+  --search-bg: #838383; /* Search background */
+}
+
+body, html {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: var(--app-bg);
+  transition: 0.2s;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.firstsection{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.contactus-div{
+  background-color: grey;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;;
+  text-align: center;
+  width: 56rem;
+  align-content: center;
+}
+
+@media screen and (max-width: 520px) {
+  
+  .box-model {
+    flex: 1 1 100%;
+  }
+  h1 {
+    font-size: 1.25em;
+  }
+  p {
+    font-size: 0.75em;
+  }
+  .app-container {
+    overflow: auto;
+  }
+}

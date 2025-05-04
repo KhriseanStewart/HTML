@@ -1,0 +1,11 @@
+.choose-us {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .models {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }

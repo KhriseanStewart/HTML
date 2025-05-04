@@ -310,21 +310,26 @@ p {
   }
 }
 @media screen and (max-width: 520px) {
+
   h1 {
     font-size: 1.25em;
   }
+
   p {
     font-size: 0.75em;
   }
   .app-container {
     overflow: auto;
   }
+
   .app-main {
     flex: unset;
   }
+
   .modal-right {
     flex: unset;
   }
+
   .card:hover {
     transform: scale(1);
   }

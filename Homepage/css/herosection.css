@@ -1,0 +1,47 @@
+.hero-section {
+    padding-top: 300px;
+    display: flex;
+    background-image: url(./assets/137-97352.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 94vh;
+    background-color: rgb(97, 69, 55);
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .hero-text {
+    font-size: 58px;
+    color: white;
+  }
+  @media screen and (max-width: 780px) {
+
+    .hero-section{
+      padding: 1px;
+    }
+    .hero-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero-section{
+      display: flex;
+      justify-content: center;
+    }
+    .hero-text{
+      line-height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+  
+    .hero-section{
+      padding: 20px;
+    }
+    .hero-text{
+      font-size: 40px;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.navigation {
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .app-link {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--main-font-color);
+    line-height: 24px;
+  }
+  
+  .navigation-links {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 420px;
+  }
+  
+  .nav-link {
+    color: var(--light-font-color);
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 8px;
+    transition: 0.2s;
+  }
+  .nav-link.active {
+    color: var(--main-font-color);
+  }
+  .nav-link:not(.active):hover {
+    color: var(--buttons-color-primary);
+  }
+  @media screen and (max-width: 780px) {
+    .navigation {
+      padding: 24px;
+    }
+  }
+  @media screen and (max-width: 660px) {
+    .navigation {
+      display: flex;
+      justify-content: center;
+    }
+    .navigation-links {
+      display: none;
+    }
+  }
+  
