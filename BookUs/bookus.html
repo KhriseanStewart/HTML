@@ -73,17 +73,17 @@
               <h1>Description</h1>
               <p style="color: black;">
                 At Island Essence, we bring the vibrant flavors of Jamaica right to your table. Our carefully curated selection of authentic Jamaican beverages and foods captures the soul of the Caribbean, combining traditional recipes with the freshest ingredients. Whether you’re a seasoned connoisseur of Jamaican cuisine or a curious newcomer, our products are designed to delight your taste buds and transport you straight to the sun-kissed shores of Jamaica.
-<br>
-Discover Our Offerings:
-<br>
-<ol>
-  <li>Beverages: Quench your thirst with our refreshing selection of traditional Jamaican drinks, including the rich and spicy Ginger Beer, the tart and invigorating Sorrel Drink, and tropical fruit juices bursting with flavor. Each sip is a celebration of Jamaican heritage, crafted with love and care.</li>
-  <li>Authentic Jamaican Dishes: Experience the rich culinary tapestry of Jamaica with our range of savory dishes. From mouth-watering Jerk Chicken marinated to perfection, tender Oxtail simmered in a scrumptious gravy, to the classic Ackee and Saltfish, our meals are prepared to deliver an authentic taste that will leave you craving more.</li>
-</ol>
+              <br>
+              Discover Our Offerings:
+              <br>
+              <ol>
+                <li>Beverages: Quench your thirst with our refreshing selection of traditional Jamaican drinks, including the rich and spicy Ginger Beer, the tart and invigorating Sorrel Drink, and tropical fruit juices bursting with flavor. Each sip is a celebration of Jamaican heritage, crafted with love and care.</li>
+                <li>Authentic Jamaican Dishes: Experience the rich culinary tapestry of Jamaica with our range of savory dishes. From mouth-watering Jerk Chicken marinated to perfection, tender Oxtail simmered in a scrumptious gravy, to the classic Ackee and Saltfish, our meals are prepared to deliver an authentic taste that will leave you craving more.</li>
+              </ol>
               </p>
             </div>
             <div class="desc-actions">
-              <button class="btn-book">Order Now!</button>
+              <button class="btn-book" id="btn-book">Order Now!</button>
               <div class="add-favourite">
                 <input type="checkbox" id="favourite">
                 <label for="favourite">
@@ -126,5 +126,18 @@ Discover Our Offerings:
          </div>
     </div>
 </div>
+<script>
+  const orderNowButton = document.getElementById('btn-book'); // Corrected method
+
+  orderNowButton.addEventListener('click', function() {
+    const targetUrl = '../Delievery/index.html';
+    console.log("Hell World"); // You can keep this for debugging, or remove it
+    
+    window.location.href = targetUrl;
+    
+    // Optional: To open in a new tab, use window.open() instead:
+    // window.open(targetUrl, '_blank');
+  });
+</script>
 </body>
 </html>

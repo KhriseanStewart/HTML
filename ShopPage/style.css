@@ -325,6 +325,7 @@ p {
   .modal-right {
     flex: unset;
   }
+
   .card:hover {
     transform: scale(1);
   }
